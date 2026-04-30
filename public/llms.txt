@@ -1,0 +1,27 @@
+# Zoo Industries
+
+> Open AI research network — Zoo Industries Inc & Zoo Labs Foundation 501(c)(3).
+
+## About
+Zoo Industries is the operating arm of the Zoo open AI research network, advancing decentralized AI (DeAI), decentralized science (DeSci), and frontier model development. Governance flows through ZIPs (Zoo Improvement Proposals) at zips.zoo.ngo. Built on the Zen LM model family and Hanzo AI infrastructure.
+
+## Key Features
+- DeAI: Decentralized training, inference, and dataset curation
+- DeSci: Open research chains, peer review, replication
+- Frontier Models: Zen family (600M – 1T+ params), 7 modalities
+- Governance: ZIPs / DAO-driven, community-governed
+- Infrastructure: Zoo Network (chain ID 200200) + Hanzo AI compute
+- $ZOO governance token + $AI mineable compute token
+- Open-source by default — 2,500+ OSS projects, 130+ papers
+
+## Links
+- [Website](https://zoo.industries)
+- [Foundation](https://zoo.ngo)
+- [Network](https://zoo.network)
+- [ZIPs](https://zips.zoo.ngo)
+- [GitHub](https://github.com/zooai)
+- [Models](https://huggingface.co/zenlm)
+
+## Contact
+- Foundation: hi@zoo.ngo
+- Research: research@zoo.ngo
