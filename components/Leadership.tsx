@@ -48,12 +48,6 @@ export default function Leadership() {
       image: "/leadership/danielle-savage.png"
     },
     {
-      name: "Ashley Kathleen Christie",
-      title: "Chief of Staff",
-      bio: "Strategic advisor ensuring organizational alignment and leadership effectiveness. Expert in executive operations and cross-functional coordination.",
-      image: "/leadership/ashley-christie.png"
-    },
-    {
       name: "Anastasia Zacharaoff",
       title: "VP Engineering",
       bio: "Engineering leader driving technical excellence and innovation. Expert in building high-performing engineering teams and scalable systems.",

@@ -1,7 +1,7 @@
 "use client";
 
 import {
-  Code2, Paintbrush, HelpCircle, Settings, Lightbulb, Bot,
+  Code2, Paintbrush, Settings, Lightbulb, Bot,
   MessagesSquare, ChartBar, Shield, Users
 } from "lucide-react";
 import TeamMemberCard from "@/components/team/TeamMemberCard";
@@ -67,14 +67,6 @@ export default function PageClient() {
       icon: Paintbrush,
       gradient: "from-white/20 to-white/10",
       image: "/leadership/danielle-savage.png"
-    },
-    {
-      name: "Ashley Kathleen Christie",
-      role: "Chief of Staff",
-      description: "Ensuring organizational effectiveness and leadership alignment.",
-      icon: HelpCircle,
-      gradient: "from-white/20 to-white/10",
-      image: "/leadership/ashley-christie.png"
     },
     {
       name: "Woo Bin",
