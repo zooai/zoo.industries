@@ -445,53 +445,6 @@ export default function ZooLabsNarrative() {
         </div>
       </Section>
 
-      {/* ── The Round ───────────────────────────────────────── */}
-      <Section id="round">
-        <SectionHead
-          pillClass="pill-yellow"
-          title="The Round"
-          subtitle="$100M AI Infrastructure Raise"
-        />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 mb-6 md:mb-8">
-          {[
-            { v: "$100M", l: "Target raise — for open AI infrastructure" },
-            { v: "$500B+", l: "Addressable market — enterprise AI + compute + models" },
-            { v: "100x", l: "Potential vs closed AI incumbents" },
-          ].map((s) => (
-            <div
-              key={s.l}
-              className="p-6 md:p-8 border-2 border-black bg-white text-center shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]"
-            >
-              <div className="text-4xl md:text-6xl font-extrabold tracking-tight mb-2">
-                {s.v}
-              </div>
-              <div className="text-xs md:text-sm uppercase tracking-wider font-semibold text-black/70">
-                {s.l}
-              </div>
-            </div>
-          ))}
-        </div>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 text-sm md:text-base font-medium">
-          {[
-            "Category leadership in open AI infrastructure",
-            "Strategic partnership in ecosystem building",
-            "Access to Zoo's five-layer stack",
-            "First-mover advantage in the shift from closed to open AI",
-          ].map((line) => (
-            <li
-              key={line}
-              className="flex items-start gap-3 p-3 md:p-4 border-2 border-black bg-white"
-            >
-              <span
-                aria-hidden
-                className="w-2 h-2 mt-2 bg-[var(--brand-magenta)] flex-shrink-0"
-              />
-              {line}
-            </li>
-          ))}
-        </ul>
-      </Section>
-
       {/* ── Multisensory AI ─────────────────────────────────── */}
       <Section id="multisensory">
         <SectionHead
