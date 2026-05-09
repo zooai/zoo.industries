@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import site from '@/site.config'
 
 interface LogoProps {
   className?: string
@@ -12,29 +11,32 @@ interface LogoProps {
 }
 
 const sizes = {
-  sm: { logo: 'h-6 w-6', text: 'text-lg' },
-  md: { logo: 'h-8 w-8', text: 'text-xl' },
-  lg: { logo: 'h-10 w-10', text: 'text-2xl' },
+  sm: { logo: 'h-7 w-7',  text: 'text-xl' },
+  md: { logo: 'h-9 w-9',  text: 'text-2xl' },
+  lg: { logo: 'h-12 w-12', text: 'text-3xl' },
 }
 
+// Brand lockup: CMYK Venn mark + ZOO AI wordmark, matching the real
+// Zoo logo from the pitch deck cover ("ZOO AI · Open AI for the future
+// of tomorrow.").
 export default function Logo({ className = '', showText = true, size = 'md' }: LogoProps) {
   return (
-    <Link href="/" className={cn('flex items-center space-x-3 group', className)}>
+    <Link href="/" className={cn('flex items-center gap-2.5 group', className)}>
       <Image
         src="/zoo-logo.svg"
-        alt={site.brand.name}
-        width={40}
-        height={40}
-        className={cn(sizes[size].logo, 'transition-all duration-300')}
+        alt="ZOO AI"
+        width={48}
+        height={48}
+        className={cn(sizes[size].logo, 'transition-transform duration-300 group-hover:scale-105')}
         priority
       />
       {showText && (
         <span className={cn(
-          'font-semibold transition-colors duration-300',
+          'font-extrabold uppercase tracking-tight transition-colors duration-300',
           sizes[size].text,
           'text-foreground group-hover:text-foreground/90'
         )}>
-          {site.brand.name}
+          ZOO&nbsp;AI
         </span>
       )}
     </Link>
